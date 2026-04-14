@@ -1,0 +1,9 @@
+{
+  "name": "jovanhsu-blog",
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^9.1.0"
+  }
+}
