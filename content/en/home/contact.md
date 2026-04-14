@@ -1,8 +1,7 @@
 ---
 title: "Contact"
-weight: 2
 ---
 
-Get in touch
+In the Contact section of **Introduction**, you may optionally display the current time in your preferred timezone.
 
-hello@narsk.sbs
+This lets visitors know what sort of response time to expect when they contact you. The timezone is easily set in the `config.toml` file. See the exampleSite configuration for instructions.

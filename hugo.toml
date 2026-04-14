@@ -1,37 +1,44 @@
-baseURL                          = "https://blog.narsk.sbs/"
-theme                            = "introduction"
-languageCode                     = "zh-cn"
-title                            = "Jovan Hsu"
-preserveTaxonomyNames           = true
+baseURL = "https://blog.narsk.sbs/"
+theme = "introduction"
+title = "Jovan Hsu"
+preserveTaxonomyNames = true
+DefaultContentLanguage = "en"
+
+[languages]
+[languages.en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content/en"
+weight = 0
 
 [params]
-    themeStyle                   = "light"
-    favicon                      = "/img/fav.ico"
-    showMenu                     = true
-    showRSSButton                = false
-    fadeIn                       = true
-    fadeInIndex                  = false
-    dateFormat                   = "2006-01-02"
-    email                        = "hello@narsk.sbs"
-    
+    themeStyle = "light"
+    favicon = "/img/fav.ico"
+    showMenu = true
+    showRSSButton = false
+    fadeIn = true
+    fadeInIndex = false
+    dateFormat = "2006-01-02"
+    email = "hello@narsk.sbs"
+
     [params.home]
-        introHeight              = "fullheight"
-        showLatest               = true
-        showAllPosts             = true
-        allPostsArchiveFormat    = true
-        numberOfProjectsToShow   = 6
-        localTime                = true
-        timeZone                 = "Asia/Shanghai"
-        timeFormat               = "zh-CN"
+        introHeight = "fullheight"
+        showLatest = true
+        showAllPosts = true
+        allPostsArchiveFormat = true
+        numberOfProjectsToShow = 6
+        localTime = true
+        timeZone = "Asia/Shanghai"
+        timeFormat = "zh-CN"
 
     [[params.social]]
-        url   = "https://github.com/JovanHsu"
-        icon  = "github"
+        url = "https://github.com/JovanHsu"
+        icon = "github"
         icon_pack = "fab"
 
     [[params.social]]
-        url   = "https://twitter.com/"
-        icon  = "twitter"
+        url = "https://twitter.com/"
+        icon = "twitter"
         icon_pack = "fab"
 
 [markup]

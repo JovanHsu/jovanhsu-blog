@@ -1,6 +1,6 @@
 ---
-title: "Welcome"
+title: "Hi, I'm Introduction"
 headless: true
 ---
 
-Software Engineer & Developer
+I'm a theme for Hugo.
