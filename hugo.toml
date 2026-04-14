@@ -1,0 +1,54 @@
+baseURL                          = "https://blog.narsk.sbs/"
+theme                            = "introduction"
+languageCode                     = "zh-cn"
+title                            = "Jovan Hsu"
+preserveTaxonomyNames           = true
+
+[params]
+    themeStyle                   = "light"
+    favicon                      = "/img/fav.ico"
+    showMenu                     = true
+    showRSSButton                = false
+    fadeIn                       = true
+    fadeInIndex                  = false
+    dateFormat                   = "2006-01-02"
+    email                        = "hello@narsk.sbs"
+    
+    [params.home]
+        introHeight              = "fullheight"
+        showLatest               = true
+        showAllPosts             = true
+        allPostsArchiveFormat    = true
+        numberOfProjectsToShow   = 6
+        localTime                = true
+        timeZone                 = "Asia/Shanghai"
+        timeFormat               = "zh-CN"
+
+    [[params.social]]
+        url   = "https://github.com/JovanHsu"
+        icon  = "github"
+        icon_pack = "fab"
+
+    [[params.social]]
+        url   = "https://twitter.com/"
+        icon  = "twitter"
+        icon_pack = "fab"
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+    [markup.goldmark.renderer]
+        unsafe = true
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        style = "solarized-dark"
+        tabWidth = 4
+
+[taxonomies]
+    tag = "tags"
+    series = "series"
