@@ -12,8 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
+
+      - name: Download Theme
+        run: |
+          git clone https://github.com/victoriadrake/hugo-theme-introduction.git themes/introduction
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
