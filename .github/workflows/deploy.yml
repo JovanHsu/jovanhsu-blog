@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo
+        run: npm install -g postcss && hugo
 
       - name: Setup Pagefind
         run: npx pagefind --site public
