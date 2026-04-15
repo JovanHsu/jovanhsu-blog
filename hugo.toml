@@ -2,14 +2,22 @@ baseURL = "https://blog.narsk.sbs/"
 theme = "introduction"
 title = "Jovan Hsu"
 preserveTaxonomyNames = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "zh"
 
 [languages]
+[languages.zh]
+languageName = "中文"
+languageCode = "zh-cn"
+contentDir = "content/zh"
+weight = 1
+title = "Jovan Hsu"
+
 [languages.en]
 languageName = "English"
 languageCode = "en-us"
 contentDir = "content/en"
-weight = 0
+weight = 2
+title = "Jovan Hsu"
 
 [params]
     themeStyle = "light"
@@ -22,11 +30,11 @@ weight = 0
     email = "hello@narsk.sbs"
 
     [params.home]
-        introHeight = "fullheight"
-        showLatest = true
-        showAllPosts = true
+        introHeight = "medium"
+        showLatest = false
+        showAllPosts = false
         allPostsArchiveFormat = true
-        numberOfProjectsToShow = 6
+        numberOfProjectsToShow = 0
         localTime = true
         timeZone = "Asia/Shanghai"
         timeFormat = "zh-CN"
