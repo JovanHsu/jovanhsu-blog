@@ -31,7 +31,7 @@ title = "Jovan Hsu"
 
     [params.home]
         introHeight = "medium"
-        showLatest = false
+        showLatest = true
         showAllPosts = false
         allPostsArchiveFormat = true
         numberOfProjectsToShow = 0
